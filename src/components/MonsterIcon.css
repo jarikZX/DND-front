@@ -1,0 +1,20 @@
+/* MonsterIcon.css */
+
+.fading {
+    animation: fadeOut 2s infinite alternate;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+
+.highlight {
+    stroke: red;
+    stroke-width: 2px;
+}

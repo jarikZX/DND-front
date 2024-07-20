@@ -1,0 +1,74 @@
+/* MapEditor.css */
+
+.map-editor-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tools-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tools-container button,
+.tools-container select,
+.tools-container input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.tools-container button:hover,
+.tools-container select:hover,
+.tools-container input:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+}
+
+.tools-container button:active,
+.tools-container select:active,
+.tools-container input:active {
+    transform: scale(1.02);
+}
+
+.tools-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.stage-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-rect {
+    transition: fill 0.2s;
+}
+
+.grid-rect:hover {
+    fill: #e0e0e0 !important;
+}

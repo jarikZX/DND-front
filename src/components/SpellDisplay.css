@@ -1,0 +1,17 @@
+/* SpellDisplay.css */
+
+.tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.selected-spell {
+  stroke: gold;
+  stroke-width: 4px;
+}
